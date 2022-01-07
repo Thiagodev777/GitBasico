@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="../Imagens/git.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Reversões</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        body {
+            background-color: #000;
+            text-align: center;
+        }
+        h1 {
+            color: #fff;
+        }
+        .reversoes-git {
+            width: 550px;
+            border: 2px solid green;
+            margin: 40px auto;
+            border-radius: 20px;
+            padding: 20px 30px;
+        }
+        p {
+            color: #fff;
+            padding: 10px 0;
+        }
+        h3 {
+            color: white;
+            padding: 10px 0;
+        }
+        span {
+            color: green;
+        }
+        a {
+            text-decoration: none;
+            color: green;
+            background-color: black;
+            border: 2px solid green;
+            border-radius: 20px;
+            padding: 15px;
+        }
+        small {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Reversões de Codigo!</h1>
+    <small>SYSTEM DEVELOPED BY ANTONIO THIAGO</small>
+    <div class="reversoes-git">
+        <h3>Reversões</h3>
+        <p style="color: red;">Para Reversões sempre usamos o Codigo do ultimo commit!</p>
+        <p>git reset --soft <span>Volta para o ultimo estado soque com os arquivos ja adicionados porem não commitados! (Usado para alteracões)</span></p>
+        <p>git reset --mixed <span>Mesma coisa do soft, porem reseta sem os arquivos adicionados e sem o commit</span></p>
+        <p>git reset --hard <span>Esqueçe tudo que foi alterado e volta a versão do ultimo Commit</span></p>
+    </div>
+    <a href="gitbranch.html" rel="next">BRANCHS</a>
+    <a href="gitversionamento.html" rel="prev">VOLTAR</a>
+</body>
+</html>

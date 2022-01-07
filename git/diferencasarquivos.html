@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="../Imagens/git.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Arquivos</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        body {
+            background-color: #000;
+            text-align: center;
+        }
+        h1 {
+            color: #fff;
+        }
+        h3 {
+            color: #fff;
+        }
+        p {
+            color: #fff;
+            padding: 10px 0;
+        }
+        span {
+            color: green;
+        }
+        h3 {
+            padding: 10px 0;
+            color: #fff;
+        }
+        .arquivos-git {
+            width: 550px;
+            border: 2px solid green;
+            margin: 50px auto;
+            border-radius: 20px;
+            padding: 20px 30px;
+        }
+        a {
+            text-decoration: none;
+            color: green;
+            background-color: black;
+            border: 2px solid green;
+            border-radius: 20px;
+            padding: 15px;
+        }
+        small {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Diferenças entre Arquivos</h1>
+    <small>SYSTEM DEVELOPED BY ANTONIO THIAGO</small>
+    <div class="arquivos-git">
+        <p>git diff <span>Mostra os Arquivos modificados por dentro</span></p>
+        <p>git diff --name-only <span>Mostra apenas os nomes dos Arquivos modificados</span></p>
+        <h3>Como saber apenas oque foi modificado dentro de um determinado Arquivo?</h3>
+        <p>git diff <span>index.html (nome do arquivo)</span></p>
+        <h3>Como voltar um Arquivo?</h3>
+        <p>git checkout --HEAD --<span>index.html</span></p>
+        <span>volta apenas a modificação fazendo com que não a nada a ser salvo</span>
+    </div>
+    <a href="gitbranch.html" rel="prev">VOLTAR</a>
+</body>
+</html>

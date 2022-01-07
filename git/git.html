@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../Imagens/git.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        body {
+            background-color: #000;
+            text-align: center;
+        }
+        h1, h2 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        p { 
+            color: white;
+            padding: 10px 0 10px 0;
+        }
+        .usuario-git {
+            margin: auto;
+            width: 550px;
+            border: 2px solid green;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            border-radius: 20px;
+            padding: 10px;
+        }
+        span {
+            color: green;
+        }
+        a {
+            text-decoration: none;
+            background-color: #000;
+            color: green;
+            border: 2px solid green;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        small {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Configurações GIT (Local)</h1>
+    <small>SYSTEM DEVELOPED BY ANTONIO THIAGO</small>
+    <div class="usuario-git">
+        <h2>Configurações do Usuario GIT !</h2>
+        <p>git config --global user.name "Nome do Usuario GIT"</p>
+        <p>git config --global user.email "Email@gmail.com"</p>
+        <p>git config --global core.editor Vscode (Editor de Codigo)</p>
+        <h2>Para ver os Dados do GIT digite: </h2>
+        <p>git config user.name</p>
+        <span>Antonio Thiago</span>
+        <p>git config user.email</p>
+        <span>noples101@gmail.com</span>
+        <h2>Para mostrar todas as configurações digite:</h2>
+        <p>git config --list</p>
+    </div>
+    <a href="gitversionamento.html" rel="next">REPOSITORIOS E VERSÕES</a>
+</body>
+</html>

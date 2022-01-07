@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="../Imagens/git.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git versionamento</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        body {
+            background-color: #000;
+            text-align: center;
+        }
+        h1 {
+            color: white;
+        }
+        h3 {
+            margin: 20px 0 10px 0;
+            color: #fff;
+        }
+        .versionamento-git {
+            width: 600px;
+            border-radius: 20px;
+            border: 2px solid green;
+            margin: auto;
+            margin: 50px auto;
+            padding: 10px 20px;
+        }
+        p {
+            color: white;
+            padding: 10px 0;
+        }
+        span {
+            color: green;
+            padding-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: green;
+            background-color: #000;
+            border: 2px solid green;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        small {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>GIT e versionamento de Codigos !</h1>
+    <small>SYSTEM DEVELOPED BY ANTONIO THIAGO</small>
+    <div class="versionamento-git">
+        <p>git status</p>
+        <span>Faz uma varredura na pasta e identifica tudo que foi alterado ou adicionado!</span>
+        <h3>Formas de adicionar um arquivo no GIT:</h3>
+        <p>git add <span>(nome do arquivo a ser adicionado)</span></p>
+        <p>git add -A <span>(Adiciona todos os arquivos não salvos)</span></p>
+        <h3>Commits no GIT!</h3>
+        <p>Commit nada mais e doque pegar todos os arquivos nao salvos e salvar dentro de uma determinada "Versão" para separar varias alterações feitas na pasta!</p>
+        <p>git commit -m <span>"Descrição do seu commit"</span></p>
+        <p>git commit -am "Nome" <span>Adicona o arquivo e da commit ao mesmo tempo!</span></p>
+        <p>git log <span>Mostra todos os commits dados na pasta incluindo nome email, data e hora de quem adicionou</span></p>
+    </div>
+    <a href="gitreversao.html" rel="next">REVERSÕES DE CODIGOS</a>
+    <a href="git.html" rel="prev">VOLTAR</a>
+</body>
+</html>
